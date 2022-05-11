@@ -84,3 +84,36 @@ else if (arr1l > arr2l) {
 else {
   console.log("Оба массива равны");
 }
+
+// 3 задание
+let svet = prompt("Выберите номер цвета: Красный (1); Жёлтый (2); Зелёный (3)")
+switch (svet) {
+  case "1":
+    alert ("Стойте!");
+    break;
+  case "2":
+    alert ("Подождите");
+    break;
+  case "3":
+    alert ("Проходите");
+    break;
+  default:
+    let svet = prompt("Введите цифру");
+    break;
+    switch (svet) {
+      case "1":
+        alert ("Стойте!");
+        break;
+      case "2":
+        alert ("Подождите");
+        break;
+      case "3":
+        alert ("Проходите");
+        break;
+      default:
+        alert ("Вы ввели некорректно, попробуйте ещё раз");
+        break;
+    }
+  }
+
+  // 

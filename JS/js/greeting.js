@@ -99,7 +99,6 @@ switch (svet) {
     break;
   default:
     let svet = prompt("Введите цифру");
-    break;
     switch (svet) {
       case "1":
         alert ("Стойте!");

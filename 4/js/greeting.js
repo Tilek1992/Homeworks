@@ -14,5 +14,5 @@ function resetCounter() {
 }
 
 function updateDisplay(val) {
-    document.getElementById("counter-label").innerHTML = val;
+    document.getElementById("counter").innerHTML = val;
 }

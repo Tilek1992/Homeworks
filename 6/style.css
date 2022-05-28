@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #4B0082;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  width: 500px;
+  border: 2px solid #fff;
+  padding: 10px
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  font-size: 18px;
+}
+
+button {
+  width: 20%;
+}

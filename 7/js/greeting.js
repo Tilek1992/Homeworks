@@ -3,7 +3,8 @@ class building {
     this.name = name;
     this.length = length;
     this.width = width;
-    this.height = color;
+    this.height = height;
+    this.color = color;
     this.gym = gym;
     this.tenants = tenants;
     this.form = form;
@@ -25,20 +26,20 @@ class school extends building {
 
 const thirdSchool = new school(
   "Third School",
-  350,
-  250,
-  15,
+  "350",
+  "250",
+  "15",
   "Orange",
-  3,
-  1050,
+  "3",
+  "1050",
   "Square",
-  40,
-  34,
-  4,
-  1000,
-  50,
-  600,
-  400
+  "40",
+  "34",
+  "4",
+  "1000",
+  "50",
+  "600",
+  "400"
 )
 console.log(thirdSchool);
 
@@ -52,15 +53,15 @@ class house extends building {
 
 const ownHome = new house(
   "Own Home",
-  15,
-  25,
-  6,
+  "15",
+  "25",
+  "6",
   "Blue",
-  1,
-  10,
+  "1",
+  "10",
   "Square",
-  10,
-  4,
-  6
+  "10",
+  "4",
+  "6"
 )
 console.log(ownHome);

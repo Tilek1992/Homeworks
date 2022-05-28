@@ -14,7 +14,7 @@ class building {
 
 class school extends building {
   constructor(name, length, width, height, color, gym, tenants, form, rooms, classRooms, teachersRooms, students, teachers, primaryStuds, secondaryStuds) {
-    super(classRooms, teachersRooms, students, teachers, primaryStuds, secondaryStuds);
+    super(name, length, width, height, color, gym, tenants, form, rooms);
     this.classRooms = classRooms;
     this.teachersRooms = teachersRooms;
     this.students = students;
@@ -26,26 +26,26 @@ class school extends building {
 
 const thirdSchool = new school(
   "Third School",
-  "350",
-  "250",
-  "15",
+  350,
+  250,
+  15,
   "Orange",
-  "3",
-  "1050",
+  3,
+  1050,
   "Square",
-  "40",
-  "34",
-  "4",
-  "1000",
-  "50",
-  "600",
-  "400"
+  40,
+  34,
+  4,
+  1000,
+  50,
+  600,
+  400
 )
 console.log(thirdSchool);
 
 class house extends building {
   constructor(name, length, width, height, color, gym, tenants, form, rooms, parents, children) {
-    super(parents, children);
+    super(name, length, width, height, color, gym, tenants, form, rooms);
     this.parents = parents;
     this.children = children;
   }
@@ -53,15 +53,15 @@ class house extends building {
 
 const ownHome = new house(
   "Own Home",
-  "15",
-  "25",
-  "6",
+  15,
+  25,
+  6,
   "Blue",
-  "1",
-  "10",
+  1,
+  10,
   "Square",
-  "10",
-  "4",
-  "6"
+  10,
+  4,
+  6
 )
 console.log(ownHome);

@@ -22,9 +22,9 @@ console.log(students);
 
 //3
 const click = document.getElementById('button');
-const input = document.getElementById('input').value;
+const input = document.getElementById('input');
 console.log(input);
 
 click.onclick = function() {
-  alert("Hello, " + input + "!");
+  alert("Hello, " + input.value + "!");
 };
